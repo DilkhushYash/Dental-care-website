@@ -11,6 +11,7 @@ import FAQ from './components/home/FAQ';
 import LoadingScreen from './components/common/LoadingScreen';
 import ScrollProgress from './components/common/ScrollProgress';
 import WhatsAppButton from './components/common/WhatsAppButton';
+import ScrollToTop from './components/common/ScrollToTop';
 
 function App() {
   useEffect(() => {
@@ -41,6 +42,7 @@ function App() {
       <Footer />
       
       <WhatsAppButton />
+      <ScrollToTop />
     </div>
   );
 }
